@@ -4,3 +4,12 @@ __pycache__/
 .env
 .vscode/
 
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Cache pytest
+.pytest_cache/
+
+# Environnement virtuel
+.venv/
