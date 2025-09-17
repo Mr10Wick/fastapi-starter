@@ -52,3 +52,7 @@ def post_user(request: Request, user: schemas.User):
     """
     print("USER", user)
     return user
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
